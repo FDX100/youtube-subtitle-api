@@ -19,8 +19,7 @@ app = Flask(__name__)
 @app.route("/<v_id>")
 def hello_world(v_id):
     
-    a =get_subtl(v_id)
-    return Response(json.dumps(a),  mimetype='application/json')
+    return "hi"
     
 if __name__ == "__main__":
     app.run(debug=False,host='0.0.0.0')    
