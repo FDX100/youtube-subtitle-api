@@ -16,7 +16,7 @@ def get_subtl(v_id):
 
 app = Flask(__name__)
 
-@app.route("/<v_id>")
+@app.route("/")
 def hello_world(v_id):
     
     return "hi"
