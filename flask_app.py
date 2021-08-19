@@ -23,4 +23,4 @@ def hello_world(v_id):
     return Response(json.dumps(a),  mimetype='application/json')
     
 if __name__ == "__main__":
-    app.run(debug=False,host='0.0.0.0')    
+    app.run(debug=False)    
